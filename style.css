@@ -43,19 +43,35 @@
     
     li{padding: 1rem;}
     
-    .debug .section1{background-color: #00008b;
-    padding: 2rem;}
+    .section1{background-image: url(./img/jumbo.png);
+    padding: 2rem;
+    background-size: cover;
+    height: 500px;}
     
     .container_section1{width: 70%;
     max-width: 1152px;
-    margin: auto;}
+    margin: auto;
+    position: relative;
+    left: 1rem;
+    top: 3.5rem;}
     
     .row_section1{display: flex;
     justify-content: center;}
     
-    .debug .col-10{width: calc((100%/12)*10);
-    height: 20rem;
-    background-color: #ee82ee;}
+    .col-10{width: calc((100%/12)*10);}
+
+    h1{font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 50px;}
+
+    .text_section1{padding-right: 9rem;
+    padding-top: 2.5rem;
+    line-height: 1.8rem;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 7rem;}
     
     .debug .container_section2{width: 70%;
     max-width: 1152px;
