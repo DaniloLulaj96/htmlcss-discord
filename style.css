@@ -42,10 +42,12 @@
     ul{list-style: none;}
     
     li{padding: 1rem;}
+
+    /*header*/
     
     .section1{background-image: url(./img/jumbo.png);
-    padding: 2rem;
     background-size: cover;
+    padding: 2rem;
     height: 500px;}
     
     .container_section1{width: 70%;
@@ -94,26 +96,42 @@
     height: 3rem;
     width: 12rem;
     font-family: Arial, Helvetica, sans-serif;}
+
+    /*section1*/
     
-    .debug .container_section2{width: 70%;
+    .container_section2{width: 70%;
     max-width: 1152px;
     margin: auto;}
     
     .row_section2{display: flex;
     justify-content: center;}
     
-    .debug .col-7{width: calc((100%/12)*7);
+    .col-7_section2{width: calc((100%/12)*7);
     height: 20rem;
-    background-color: blue;
-    margin-top: 2rem;
-    margin-bottom: 2rem;}
+    margin-top: 9rem;
+    margin-bottom: 9rem;}
     
-    .debug .col-5{width: calc((100%/12)*5);
+    
+   .imgitem1{margin-top: -2rem;
+    margin-left: -1rem;}
+
+   .debug .col-5_section2{width: calc((100%/12)*5);
     height: 20rem;
-    background-color: pink;
-    margin-top: 2rem;
-    margin-bottom: 2rem;}
-    
+    margin-top: 9rem;
+    margin-bottom: 9rem;}
+
+    h2{font-family: Arial, Helvetica, sans-serif;
+    padding-left: 8.5rem;
+    padding-top: 0.5rem;
+    font-size: 40px;}
+
+    .col-5_section2_text{padding-left: 8.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 0.5rem;
+    line-height: 1.8rem;}
+
+    /*section2*/
+
     .debug .section3{background-color: #d3d3d3;}
     
     .container_section3{
