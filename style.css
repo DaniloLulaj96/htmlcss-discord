@@ -214,8 +214,7 @@
         padding-top: 2rem;
         padding-bottom: 2rem;}
     
-    .col-12{width: 1152px;
-    height: 20rem;}
+    .col-12{width: 1152px;}
 
     .col-12_section5_title{font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
@@ -223,7 +222,29 @@
 
     .col-12_section5_text{text-align: center;
     line-height: 1.8rem;
-    padding: 0 6rem;
+    padding: 0 5.5rem;
+    font-family: Arial, Helvetica, sans-serif;}
+
+    h3{font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3rem;}
+
+    .imgitem4{margin-left: 5rem;}
+
+    .stars{position: relative;
+    left: 21rem;
+    top: 1rem;
+    width: 36%;}
+
+    .button_section5{background-color: #8ea1e1;
+    color: white;
+    border: none;
+    border-radius: 2rem;
+    width: 10rem;
+    height: 3rem;
+    margin-left: 27rem;
+    font-weight: 600px;
     font-family: Arial, Helvetica, sans-serif;}
 
     /*section5*/
