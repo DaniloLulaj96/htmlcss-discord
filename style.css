@@ -115,12 +115,12 @@
    .imgitem1{margin-top: -2rem;
     margin-left: -1rem;}
 
-   .debug .col-5_section2{width: calc((100%/12)*5);
+    .col-5_section2{width: calc((100%/12)*5);
     height: 20rem;
     margin-top: 9rem;
     margin-bottom: 9rem;}
 
-    h2{font-family: Arial, Helvetica, sans-serif;
+    .col-5_section2_title{font-family: Arial, Helvetica, sans-serif;
     padding-left: 8.5rem;
     padding-top: 0.5rem;
     font-size: 40px;}
@@ -132,7 +132,7 @@
 
     /*section2*/
 
-    .debug .section3{background-color: #d3d3d3;}
+    .debug .section3{background-color: #f6f6f6;}
     
     .container_section3{
         width: 70%;
@@ -142,6 +142,28 @@
     .row_section3{
         display: flex;
         justify-content: center;}
+
+    .col-5_section3{width: calc((100%/12)*5);
+    height: 20rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;}
+
+    .col-5_section3_text{font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.8rem;
+    margin-top: 1.5rem;
+    margin-right: 10rem;}
+
+    .col-5_section3_title{font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    padding-right: 10rem;}
+
+    .col-7_section3{width: calc((100%/12)*7);
+    height: 20rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;}
+
+    .imgitem2{margin-left: -0.7rem;
+    margin-top: -3.9rem;}
     
     .container_section4{    width: 70%;
         max-width: 1152px;
