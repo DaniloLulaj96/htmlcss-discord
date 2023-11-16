@@ -253,9 +253,10 @@
     footer{background-color: #1a1e21;
     color: white;}
     
-    .container_top-footer{width: 70%;
+    .container_top-footer{width: 60%;
     max-width: 1152px;
-    margin: auto;}
+    margin: auto;
+    border-bottom: 2px solid #8ea1e1;}
     
     .row_top-footer{display: flex;
     justify-content: center;
@@ -264,12 +265,11 @@
     
     .col-4{width: calc((100%/12)*4);
     height: 20rem;
-    margin-left: 5.5rem;
     margin-top: 3rem;}
 
     .place{color: #8ea1e1;
     font-family: Arial, Helvetica, sans-serif;
-    margin-right: 9rem;}
+    margin-right: 11rem;}
     
     .flag{display: flex;
     gap: 4px;
@@ -284,8 +284,7 @@
 
     .col-2_top-footer{width: calc((100%/12)*2);
     height: 20rem;
-    margin-top: 3rem;
-    margin-right: 2rem;}
+    margin-top: 3rem;}
 
     h5{color: #8ea1e1;
     font-family: Arial, Helvetica, sans-serif;}
@@ -298,8 +297,6 @@
     line-height: 1.5rem;}
     
     /*top-footer*/
-
-    .debug .sectionbottom{background-color: black;}
     
     .container_bottom-footer{
         width: 70%;
@@ -307,22 +304,25 @@
         margin: auto;}
     
     .row_bottom-footer{
-    display: flex;
-    justify-content: center;}
+    display: flex;}
     
     .col12_bottom-footer{width: calc((100%/12)*12);
-    height: 3rem;}
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    gap: 34rem;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;}
+      
+    .col-logo-bottom-footer{margin-top: 1rem;}
     
-    .debug .col12_bottom-footer{background-color: #7fffd4;}
+    .col-registrati-bottom-footer{margin-top: 1rem}
     
-    .col-logo-bottom-footer{float: left;
-    margin-top: 1rem;
-    text-align: left;}
-    
-    .col-registrati-bottom-footer{float: right;
-    margin-top: 1rem;
-    text-align: right;}
-    
-    .debug .col-logo-bottom-footer, .debug .col-registrati-bottom-footer{background-color: pink;}
+    .signup{border-radius: 2rem;
+    border: none;
+    background-color: #8ea1e1;
+    width: 5rem;
+    height: 1.5rem;
+    color: white;}
 
     /*bottom-footer*/
