@@ -12,6 +12,13 @@
     font-family: Arial, Helvetica, sans-serif;}
     
     header{background-color: #255ee9;}
+
+    .wave{color: #f6f6f6;
+    margin-bottom: -4px;}
+
+    .wave_reverse{color: #f6f6f6;
+    transform: rotate(180deg);
+    margin-top: -4px;}
     
     .site_header{padding: 1rem;}
 
